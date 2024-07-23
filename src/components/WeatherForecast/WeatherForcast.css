@@ -1,0 +1,26 @@
+#root{
+    margin: auto
+}
+body{
+    background-color: black;
+    color: white;
+    text-align:center
+}
+section {
+    display: flex;
+    margin: auto;
+    
+  }
+  
+  section .weather {
+    border: 1px solid #ccc;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .weather span {
+    font-weight: bold;
+  }
+
+  
